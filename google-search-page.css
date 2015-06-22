@@ -1,0 +1,50 @@
+.header {
+	background-color: #f1f1f1;
+	height: 59px;
+	border-bottom: 1px solid #e5e5e5;
+	min-width: 100%;
+	position: absolute;
+	top: 0;
+}
+
+#logo {
+	float: left;
+	margin-left: 5px;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+.searching-bar {
+	display: inline;
+	float: left;
+}
+
+#your-search{
+	width: 487px; height: 28px;
+	max-height: 28px; max-width: 488px;
+	border-radius: 3px;
+	border: 1px solid #d9d9d9;
+	border-top: #c0c0c0;	
+	float: left;
+}
+
+input:focus {
+	box-shadow:0 0 1px #4d90fe;
+    outline: 2px solid #4d90fe;
+}
+
+.button-class {
+	height: 30px; width: 58px;
+	cursor: default;
+	outline: 0;
+	position: absolute;
+	float: left;
+	border: 0;
+	padding: 0;
+}
+
+#search-glass {
+	margin-right: auto;
+	margin-left: auto;
+	border: 0;
+}
