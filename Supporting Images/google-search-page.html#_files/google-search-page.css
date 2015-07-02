@@ -230,5 +230,13 @@ p.result-link {
 	width: 512px;
 	position: absolute;
 	top: 1181px;
-	left: 223.5px;
+	left: 140px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.result-page-selector img {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
 }

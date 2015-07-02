@@ -92,14 +92,12 @@ input:focus {
 	color: #555;
 	margin: 0 20px 0px 0;
 	padding-bottom: 10px;
-
 }
 
 .l_footer a, .r_footer a {
 	text-decoration: none;
 	color: #555;
 	font-size: small;
-
 }
 
 .l_footer a:hover , .r_footer a:hover {

@@ -1,0 +1,112 @@
+* {
+	font-family: Arial
+}
+
+div.header {
+	height: 59px;
+}
+.header {
+	background-color: #f1f1f1;
+	border-bottom: 1px solid #666;
+	border-color: #e5e5e5;
+	display: block;
+}
+
+.l_header {
+/*	float: left;*/
+	display: inline;
+	position: relative;
+}
+
+.r_header {
+	float: right;
+	display: inline;
+}
+
+#google_logo, #search-form{
+	float: left;
+	display:inline-block;
+}
+
+.header-button {
+	background: #6080fb;
+	margin: 0;
+	float: left;
+	display:inline-block;
+	width: 60px; height: 30px;
+}
+
+button .l_header {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  background-color: #6080fb;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width: 60px; height: 30px;
+  background-image: url(Users/Giacomo/Documents/the_odin_project/Supporting Images/magnifying_glass.png);
+}
+
+#magn-glass {
+	border: 0;
+}
+
+#search-form {
+	width: 487px; height: 28px;
+	max-height: 28px; max-width: 488px;
+	border-radius: 3px;
+	border: 1px solid #d9d9d9;
+	border-top: #c0c0c0;	
+	float: left;
+	font-size: large;
+}
+
+
+
+.search-button {
+	background-color:#607ffb;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #06080f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+/*	padding: 15px 30px;*/
+	height: 30px; width: 42px;
+	text-decoration:none;
+	position: absolute;
+}
+/*.search-button:hover {
+	background-color:#2007db;
+}*/
+.search-button:active {
+	position:relative;
+	top:1px;
+}
+
+#search-form{
+	width: 487px; height: 28px;
+	max-height: 28px; max-width: 488px;
+	border-radius: 3px;
+	border: 1px solid #d9d9d9;
+	border-top: #c0c0c0;	
+}
+input:focus {
+	box-shadow:0 0 1px #4d90fe;
+    outline: 2px solid #4d90fe;
+}
+
+div.xxx{
+	position: relative;
+}
+
+div.xxx img {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
